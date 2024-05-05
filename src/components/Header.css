@@ -1,0 +1,73 @@
+.header {
+    position: fixed; /* Fix the header position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure header is on top of other content */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li button:hover {
+    color: #2628c5; /* Change color on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #2628c5; /* Change color on hover */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    display: flow;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #ccc;
+  }

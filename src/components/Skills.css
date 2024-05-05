@@ -1,0 +1,28 @@
+.skills-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    width: 150px;
+    margin: 20px;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
